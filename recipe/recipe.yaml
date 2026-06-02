@@ -1,5 +1,5 @@
 context:
-  version: "1.4.1"
+  version: "1.5.0"
 
 package:
   name: versitygw
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/versity/versitygw/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: bdbe036f282aba67ff179795f4eba2115106237d88a9453bea1ed3353f5ffb5d
+  sha256: 6a667e38d78a08effdf0b7c3c3e4b9929233b333c8a53c16b62eded7d43eeedc
   target_directory: src
 
 build:
-  number: 1
+  number: 0
   skip: win
   script:
     - cd src
